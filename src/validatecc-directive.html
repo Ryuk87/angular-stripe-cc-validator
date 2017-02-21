@@ -1,0 +1,18 @@
+<form name="ccform" ng-submit="submitFn()">
+
+    <!-- Card Number -->
+    <div class="validatecc-single-field">
+        <label>Credit Card Number</label>
+        <input type="text" name="cc-number" ng-model="creditcard.number" ng-required="true">
+    </div>
+
+
+    <!-- CVC Number -->
+    <div class="validatecc-single-field">
+        <label>CVC Number</label>
+        <input type="text" name="cc-cvc" ng-model="creditcard.cvc" ng-required="true">
+    </div>
+
+    <button type="submit" ng-disabled="ccform.$invalid">Proceed</button>
+
+</form>

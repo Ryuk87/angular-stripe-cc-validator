@@ -9,7 +9,7 @@ Thumbs.db
 
 # Ecosystem
 # ===========
-node_module
+node_modules
 bower_components
 
 # General

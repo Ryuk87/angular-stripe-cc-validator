@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Angular Stripe Credit Card Validator DEMO</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="Angular Stripe Credit Card Validator DEMO">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Init Angular -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.min.js"></script>
+        <!-- Load Directive -->
+        <script src="validatecc-directive.js"></script>
+    </head>
+
+    <body ng-app="myDemo">
+
+        <validatecc></validatecc>
+
+        <script>
+            angular
+                .module( 'myDemo', [ 'validatecc.directive' ] )
+            ;
+        </script>
+
+    </body>
+
+</html>
