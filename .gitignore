@@ -1,0 +1,16 @@
+# Editors
+# ===========
+.idea
+
+# OS
+# ===========
+.DS_Store
+Thumbs.db
+
+# Ecosystem
+# ===========
+node_module
+bower_components
+
+# General
+# ===========
